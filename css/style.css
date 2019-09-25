@@ -1,0 +1,113 @@
+
+    * {box-sizing: border-box;
+       Margin: 0Px;      
+}
+    .main {background-color: lightgray;
+           border: Solid 2px Black;
+           margin: 50px;
+           height: 700px;}
+    .player1 {background-color: white;
+             margin-top:40px;
+             margin-bottom:40px;
+             margin-right:40px;
+             margin-left:100px;
+             width: 35%; 
+             height: 600px;
+             border-style: solid;
+             float: right;
+}
+    .player0 {background-color: white;
+             margin:40px; 
+             width: 35%; 
+             height: 600px;
+             border-style: solid;
+}   
+     .control {background-color: white;
+             margin-top: 40px;
+             width: 10%; 
+             height: 600px;
+             border-style: solid;
+             float:right;
+}    
+    .newgame {margin-top: 60px;
+              margin-bottom: 100px;
+              margin-left: 8px;
+              text-align: center;
+              font-weight: bold;
+              font-size: 18px;
+              color: black;
+              background-color: #f6b319;
+}    
+    .playerbox {margin-top: 100px;
+              text-align: center;
+              font-weight: bold;
+             
+}
+    .scorebox{ background-color: red;
+                border-style: solid;
+               margin-left: 200px;
+               margin-right:200px;
+               margin-top: 50px;}
+    #diceroll {margin-left: 30px; 
+               text-align: center; 
+               width: 25px;
+               height: 25px; 
+               margin-bottom: 20px; 
+}
+  #rolldice { margin-left: 15px;
+              margin-top: 80px; 
+              text-align: center;
+              font-weight: bold;
+              font-size: 18px;
+              color: black;
+              background-color: #f6b319;
+} 
+    #hold {   margin-left: 25px;
+              margin-top: 30px; 
+              align-content: center;
+              font-weight: bold;
+              font-size: 18px;
+              color: black;
+              margin-top: 100px;
+              background-color: #f6b319;
+              
+}
+    #currentscore-0 {
+        
+}
+    #currentscore-1 {
+        
+}
+    #globalscore0 {
+             margin-bottom: 100px; 
+             font-size: 2em;
+} 
+    #globalscore1 {
+             margin-bottom: 100px; 
+             font-size: 2em;
+} 
+    .active {
+        background-color: dimgray;
+}
+    .logo {background-color: gray;
+           font-size: 40px;
+           font-weight: bold;
+           padding: 25px;
+           margin: 25px;
+           width: 30%;}
+    a {color: white;
+       margin: 30px;
+       text-decoration: none;
+       align-content: center;}
+    h1 {padding: 20px;}
+    p {padding: 20px;}
+    .float1 { background-color: linen;
+              float:left;
+              width: 70%;}
+    .float2 { float: left;
+              width: 30%;}
+    #copy {background-color: dimgrey;
+           Clear: left;
+           color: white}
+    
+  

@@ -1,0 +1,44 @@
+<!Doctype HTML>
+<HTML>
+<Head>
+<Meta charset="utf-8">
+<Title>PIG Game</Title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.min.css"> 
+<link rel="stylesheet" href="css/all.css">    
+</Head>
+<Body style ="background-color: #61122f">
+<Div class = "main">
+    <Div class = "player1">
+        <Div class = "playerbox">
+        <Div style="margin-bottom: 100px; font-size: 2em">PLAYER 2</Div>
+        <Div id = "globalscore1">0</Div>
+        <Div class = "scorebox">CURRENT<Div id = "currentscore-1">0</Div></Div>    
+        </Div>
+    
+    </Div>
+    <Div class = "control">
+        <button class = "newgame"><i class = "fas fa-plus-circle" style="margin-right: 5px"></i>New game</button>
+        <div id = "diceroll"><img src="dice-1.png" alt="" class = "image"></div>
+        <button id = "rolldice"><i class ="fas fa-sync-alt" style="margin-right: 10px"></i>Roll Dice</button>
+        <button id = "hold"><i class ="fas fa-download" style="margin-right: 10px"></i>HOLD</button>
+        
+    
+    </Div>
+    <Div class = "player0 active">
+        <Div class = "playerbox">
+        <Div style="margin-bottom: 100px; font-size: 2em">PLAYER 1</Div>
+        <Div id = "globalscore0">0</Div>
+        <Div class = "scorebox">CURRENT<Div id = "currentscore-0">0</Div></Div>    
+        </Div>
+    
+    </Div>
+    
+</Div>
+<script src="js/script.js"></script> 
+<script src="js/jquery-3-4-1.js"></script>  
+<script src="js/bootstrap.min.js"></script>    
+
+</Body>
+
+</HTML>
